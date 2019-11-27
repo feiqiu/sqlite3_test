@@ -1,6 +1,9 @@
 #ifndef _LXT_LOG_H
 #define _LXT_LOG_H
 #include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <string.h>
 #include "lxt_types.h"
 
 #if defined(__cplusplus) || defined(c_plusplus)
